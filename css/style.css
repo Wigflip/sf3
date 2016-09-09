@@ -1,0 +1,53 @@
+main {
+  height: auto;
+  width: 100%;
+  background-color: EB6D00;
+  background: url("../images/poster.jpg"); }
+
+.logo img {
+  height: auto;
+  width: 400px;
+  margin: 0 auto;
+  display: block; }
+
+.info, .info-right, .info-left {
+  height: 300px;
+  width: 100%; }
+  .info .row, .info-right .row, .info-left .row {
+    max-width: 64rem; }
+
+.info-right {
+  background-color: #EB6D00; }
+  .info-right .image {
+    float: left;
+    width: 40%; }
+  .info-right .description {
+    float: right; }
+
+.info-left {
+  background-color: #FFFFFF; }
+  .info-left .image {
+    float: right;
+    width: 40%; }
+  .info-left .description {
+    float: left; }
+
+.image {
+  padding: 35px 22px; }
+
+.description {
+  padding: 35px 50px;
+  width: 60%; }
+
+footer {
+  height: 180px;
+  width: 100%;
+  padding-top: 20px;
+  background-color: black;
+  color: white;
+  text-align: center; }
+  footer img {
+    height: auto;
+    width: 160px; }
+
+/*# sourceMappingURL=style.css.map */

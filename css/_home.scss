@@ -1,0 +1,62 @@
+main{
+	height:auto;
+	width:100%;
+	background-color:EB6D00;
+	background: url("../images/poster.jpg");
+}
+
+.logo{
+	img {
+		height:auto;
+		width:400px;
+		margin:0 auto;
+		display:block;
+	}
+}
+
+.info{
+	height:300px;
+	width:100%;
+
+	.row{
+		max-width:64rem;
+	}
+}
+
+.info-right{
+	@extend .info;
+	background-color:#EB6D00;
+
+	.image{
+		float:left;
+		width:40%;
+	}
+
+	.description{
+		float:right;
+	}
+
+}
+
+.info-left{
+	@extend .info;
+	background-color:#FFFFFF;
+
+	.image{
+		float:right;
+		width:40%;
+	}
+	
+	.description{
+		float:left;
+	}
+}
+
+.image{
+	padding:35px 22px;
+}
+
+.description{
+	padding:35px 50px;
+	width:60%;
+}
