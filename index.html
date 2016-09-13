@@ -8,13 +8,26 @@
 	<link rel="stylesheet" href="css/foundation.css"/>
 	<link rel="stylesheet" href="css/normalize.css"/>
 	<link rel="stylesheet" href="css/style.css"/>
+	<link href="http://vjs.zencdn.net/5.5.3/video-js.css" rel="stylesheet">
 </head>
 <body>
 	<main>
 		<div class="trailer-info">
+			<div class="opacity-layer"></div>
 			<div class="row">
 				<div class="logo"><img src="images/SFIII.png"></div>
-				
+				<div class="trailer">
+					<video id="my-video" class="video-js vjs-big-play-centered"  controls preload="auto"
+				      poster="images/video-thumbs/main-video.jpg" data-setup="{}">
+					    <source src="videos/strike.mp4" type='video/mp4'>
+				    </video>
+				</div>
+				<div class="welcome">
+					<h2>The fight returns!</h2>
+					<p>Street Fighter® III: Third Strike Online Edition takes one of the deepest, most sophisticated fighting games of all time online with an arcade perfect re-creation.</p>
+					<p>Featuring the unique and memorable characters of the Street Fighter® III series, GGPO-enabled online allows players to use their technical moves – like the series-defining parry system – in a seamless, arcade-like environment. High-quality, HD-filtered graphics emphasize the smooth animation, a vault of unlockables allow for replayability, and an integrated leaderboard.
+					</p>
+				</div>	
 			</div>
 		</div>
 		<div class ="info-right">
@@ -43,7 +56,41 @@
 					<p>Not only will players be able to watch local and global match replays in-game, but with a click of a button they can upload replays directly to YouTube™ to share with the rest of the world.</p>
 				</div>	
 			</div>			
-		</div>						
+		</div>
+		<div class="screenshots">
+			<h2>Screenshots</h2>
+			<div class="row large-up-5">
+				<div class="column">
+				    <img src="images/1.png">
+				</div>
+				<div class="column">
+				    <img src="images/1.png">
+				</div>
+				<div class="column">
+				    <img src="images/1.png">
+				</div>
+				<div class="column">
+				    <img src="images/1.png">
+				</div>
+				<div class="column">
+				    <img src="images/1.png">
+				</div>
+				<div class="column">
+				    <img src="images/1.png">
+				</div>
+				<div class="column">
+				    <img src="images/1.png">
+				</div>
+				<div class="column">
+				    <img src="images/1.png">
+				</div>
+				<div class="column">
+				    <img src="images/1.png">
+				</div>
+				<div class="column">
+				    <img src="images/1.png">
+				</div>
+			</div>						
 	</main>
 	<footer>
 		<div class="row">
@@ -54,6 +101,7 @@
 			<a><img src ="images/psn.jpg"></a>
 			<p>© Capcom Entertainment, Inc. 2011 All Rights Reserved. LEGAL NOTICE PRIVACY POLICY</p>
 		</div>
-	</footer>	
+	</footer>
+	<script src="http://vjs.zencdn.net/5.5.3/video.js"></script>	
 </body>
 </html>	
